@@ -1,19 +1,28 @@
 
 ## 💰 1. Total Sales & Profit (KPI)
 SELECT
+
 ROUND(SUM(Sales),2) as Total_Sales,
+
 ROUND(SUM(Profit),2) as Total_Profit
+
 from ecommerce_data;
 <img width="719" height="193" alt="image" src="https://github.com/user-attachments/assets/e7150d19-b35a-431f-81e2-f288606a2f1d" />
  
 
 ### 🔍 Key Insights 
 • The business generated ~2.29M in total sales but only ~286K in profit, indicating a relatively lower profit margin. 
+
 •	This suggests that high revenue does not necessarily translate into high profitability. 
+
 •	Costs, discounts, or operational inefficiencies may be impacting profit. 
+
 ### Business Recommendation
+
 •	Focus on improving profit margins, not just increasing sales. 
+
 •	Analyze factors like discounts, shipping costs, and product categories affecting profit. 
+
 •	Implement cost optimization strategies to improve overall profitability.
 
 -- 📊 2. Sales by Region
