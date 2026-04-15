@@ -9,25 +9,21 @@ from ecommerce_data;<br>
 
 ## 🔍 Key Insights 
 
-• The business generated ~2.29M in total sales but only ~286K in profit, indicating a relatively lower profit margin. 
-
-•	This suggests that high revenue does not necessarily translate into high profitability. 
-
-•	Costs, discounts, or operational inefficiencies may be impacting profit. 
+• The business generated ~2.29M in total sales but only ~286K in profit, indicating a relatively lower profit margin. <br>
+•	This suggests that high revenue does not necessarily translate into high profitability. <br>
+•	Costs, discounts, or operational inefficiencies may be impacting profit. <br>
 
 ## 💡Business Recommendation
 
-•	Focus on improving profit margins, not just increasing sales. 
-
-•	Analyze factors like discounts, shipping costs, and product categories affecting profit. 
-
-•	Implement cost optimization strategies to improve overall profitability.
+•	Focus on improving profit margins, not just increasing sales. <br>
+•	Analyze factors like discounts, shipping costs, and product categories affecting profit.<br>
+•	Implement cost optimization strategies to improve overall profitability.<br>
 
 # 📊 2. Sales by Region
-SELECT
-Region,ROUND(Sum(Sales),2) as Total_Sales
-FROM ecommerce_data
-GROUP BY Region
+SELECT<br>
+Region,ROUND(Sum(Sales),2) as Total_Sales<br>
+FROM ecommerce_data<br>
+GROUP BY Region<br>
 ORDER BY Total_Sales DESC;
 <img width="658" height="361" alt="image" src="https://github.com/user-attachments/assets/5e993385-b36c-44ab-9ac0-c18da17d45d7" />
 
