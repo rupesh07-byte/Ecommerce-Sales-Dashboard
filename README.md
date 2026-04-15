@@ -74,6 +74,7 @@ This project presents an end-to-end data analytics workflow using E-commerce sal
 * 🧮 SQL Queries (.sql)
 * 🐍 Python Notebook / Script
 * 📸 Dashboard Screenshot
+* SQL_Analysis.md
 
 ---
 
