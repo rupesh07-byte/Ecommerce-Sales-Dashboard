@@ -24,7 +24,7 @@ SELECT<br>
 Region,ROUND(Sum(Sales),2) as Total_Sales<br>
 FROM ecommerce_data<br>
 GROUP BY Region<br>
-ORDER BY Total_Sales DESC;
+ORDER BY Total_Sales DESC;<br>
 <img width="658" height="361" alt="image" src="https://github.com/user-attachments/assets/5e993385-b36c-44ab-9ac0-c18da17d45d7" />
 
 
@@ -45,7 +45,7 @@ SELECT<br>
 Category, ROUND(Sum(Sales),2) as Total_Sales<br>
 FROM ecommerce_data<br>
 GROUP BY Category<br>
-ORDER BY Total_Sales DESC;
+ORDER BY Total_Sales DESC;<br>
 <img width="766" height="297" alt="image" src="https://github.com/user-attachments/assets/6a71359f-76fe-4c6b-b40d-0dc51d05cb59" />
 
  
@@ -68,7 +68,7 @@ o	Low margin products? <br>
 SELECT TOP 5[Customer_Name], ROUND(SUM(Sales),2) as Total_Sales<br>
 FROM ecommerce_data<br>
 GROUP BY [Customer_Name]<br>
-ORDER BY Total_Sales DESC;
+ORDER BY Total_Sales DESC;<br>
  <img width="806" height="427" alt="image" src="https://github.com/user-attachments/assets/48f9c852-ada4-4533-a375-75dd363624d0" />
 
 ## 🔍 Key Insights 
@@ -85,7 +85,7 @@ ORDER BY Total_Sales DESC;
 SELECT Category, ROUND(SUM(Profit),2) as Total_Profit<br>
 FROM ecommerce_data<br>
 GROUP BY Category<br>
-ORDER BY Total_Profit DESC;
+ORDER BY Total_Profit DESC;<br>
 <img width="771" height="309" alt="image" src="https://github.com/user-attachments/assets/5c8d27c5-66f2-4ce5-a8ed-2aa2445bc56b" />
 
  
@@ -107,7 +107,7 @@ SELECT TOP 10 [Product_Name], ROUND(SUM(Profit),2) as Total_Profit<br>
 FROM ecommerce_data<br>
 GROUP BY [Product_Name]<br>
 HAVING SUM(Profit)<0<br>
-ORDER BY Total_Profit;
+ORDER BY Total_Profit;<br>
 <img width="1090" height="507" alt="image" src="https://github.com/user-attachments/assets/8680376f-0c63-4101-979c-badfa9040ee3" />
 
 
@@ -131,7 +131,7 @@ o	Discount policies <br>
 SELECT Category, ROUND(SUM(Profit),2) as Total_Profit<br>
 FROM ecommerce_data<br>
 GROUP BY Category<br>
-ORDER BY Total_Profit;
+ORDER BY Total_Profit;<br>
 <img width="765" height="300" alt="image" src="https://github.com/user-attachments/assets/16e6b9b0-a143-40bd-8862-daded3ebb340" />
 
  
@@ -152,7 +152,7 @@ ________________________________________
 SELECT Order_Year, ROUND(SUM(Sales),2) as Total_Sales<br>
 FROM ecommerce_data<br>
 GROUP BY Order_Year<br>
-ORDER BY Order_Year ;
+ORDER BY Order_Year ;<br>
 <img width="705" height="358" alt="image" src="https://github.com/user-attachments/assets/cfcf3bea-e933-48c1-96bd-8648d1d8de70" />
 
  
@@ -196,7 +196,7 @@ ________________________________________
 SELECT Discount, ROUND(AVG(Profit),2) as Avg_Profit<br>
 from ecommerce_data<br>
 GROUP BY Discount<br>
-ORDER BY Discount;
+ORDER BY Discount;<br>
 <img width="865" height="880" alt="image" src="https://github.com/user-attachments/assets/cf9c64fb-83fa-4e28-931d-c24f6a9e7207" />
  
 ## 🔍 Insights:
